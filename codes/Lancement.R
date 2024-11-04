@@ -13,11 +13,3 @@ rmarkdown::render(
   envir = globalenv(),
 )
 
-
-# Lecture du fichier JSON de metadonnées
-metadonnees <- fromJSON("input/metadonnees.json")
-
-# Conversion de la partie "variables" en data.frame pour plus de facilité
-variables_df <- as.data.frame(metadonnees$variables)
-
-gerer_une_demande(table_demandes[1,],variables_df)

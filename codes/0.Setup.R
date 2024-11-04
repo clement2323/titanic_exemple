@@ -3,8 +3,8 @@ library(BoutadE)
 ls("package:BoutadE")
 
 packages <- c(
-    "dplyr","data.table","tidyverse","arrow",
-    "ggplot2","patchwork","knitr","pbapply","rmdformats","devtools","jsonlite"
+    "dplyr","data.table","tidyverse",
+    "ggplot2","knitr","pbapply","rmdformats","devtools","jsonlite"
     )
 
 tmp <- sapply(packages,installer_package)
