@@ -1,0 +1,16 @@
+id_demande,table,var_croisement,var_croisement_relative,var_quanti,fonctions_agregations,condition,type_output,nom_fichier_xls,nom_onglet,titre,unite
+1,EP_FI_AG,dep_EP,s4_FI,redi_r310_EP,sum,,graphique,,cadrage,Répartition du chiffre d'affaire des EP par branche,million
+2,FI_EP_AG,dep_EP,s4_EP,redi_e200_EP,sum,,graphique,,cadrage,Répartition de l'emploi par branche des EP,unite
+3,FI_EP_AG,dep_EP,s4_EP,redi_e200_EP,mean,,table,,cadrage,Moyenne de l'emploi des EP par branche,unite
+4,EP_FI_AG,dep_EP,s4_FI,poids,sum,,graphique,,côté entreprises,Structure de detention par branches des entreprises antillaises en nombre,unite
+5,EP_FI_AG,dep_EP,s4_FI,redi_r310_FI,sum,,graphique,,côté entreprises,Structure de detention par branches des entreprises antillaises en CA,million
+6,EP_FI_AG,dep_EP,dep_FI_relatif,poids,sum,,graphique,,côté entreprises,Structure de detention par departement des entreprises antillaises en nombre,unite
+7,EP_FI_AG,dep_EP,dep_FI_relatif,redi_r310_FI,sum,,graphique,,côté entreprises,Structure de detention par departement des entreprises antillaises en CA,millier
+8,FI_EP_AG,dep_FI,s4_EP,poids,sum,,graphique,,côté filiales, EP detenant les filiales anitllaises par branche en nombre,unite
+9,FI_EP_AG,dep_FI,dep_EP_relatif,poids,sum,,graphique,,côté filiales, EP detenant les filiales anitllaises par departement en nombre,unite
+10,FI_EP_AG,dep_FI,dep_EP_relatif,poids,sum,,graphique,,côté filiales, EP detenant les filiales anitllaises par departement en nombre,unite
+11,FI_EP_AG,dep_FI,dep_EP_relatif,redi_r310_FI-redi_r310_FI-redi_r310_FI,mean-median-max,,table,premier_croisement.xlsx,côté filiales, EP detenant les filiales anitllaises par departement en nombre,unite-unite-unite
+12,FI_EP_AG,dep_FI,dep_EP_relatif,poids,sum,,table,premier_croisement.xlsx,côté filiales, Qui detient les filiales niveau dep_EP ?,unite
+13,EP_FI_AG,dep_EP,s4_FI,redi_r310_FI,sum,,table,premier_croisement.xlsx,côté entreprises,Structure de detention par branches des entreprises antillaises en CA,million
+14,EP_FI_AG,dep_EP,dep_FI_relatif,poids,sum,,table,premier_croisement.xlsx,côté entreprises,Structure de detention par departement des entreprises antillaises en nombre,unite
+15,EP_FI_AG,dep_EP,dep_FI_relatif,poids-redi_r310_FI,sum-mean,,table,premier_croisement.xlsx,côté entreprises,Structure de detention par departement des entreprises antillaises en nombre,unite-unite

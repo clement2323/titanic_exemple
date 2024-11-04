@@ -1,0 +1,9 @@
+A partir du fichier que tu lis, peux tu me générer une table de métadonnéees en json,
+Dans cette table je veux :
+- une entrée  nom_table donnant le nom de la table
+- une entrée description donnant une description globale
+- une entrée variables : contenant également des objets "variable" composé de  :
+    nom de la variable, le nom de la variable dans la table
+    libellé de la variable, le libellé long de la variablle
+    libelle court : un libelle suffisamment petit et informatif pour etre utilisé dans des noms de colonne
+    description du concept, l'explication détaillée de la variable, le concept derrèrr
