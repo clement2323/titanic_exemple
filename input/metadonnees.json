@@ -1,78 +1,82 @@
 {
-    "nom_table": "titanic",
-    "description": "Données sur les passagers du Titanic, incluant des informations démographiques et leur survie",
-    "variables": [
-      {
-        "nom": "PassengerId",
-        "libelle": "Identifiant du passager",
-        "libelle_court": "ID_pass",
-        "description": "Numéro d'identification unique attribué à chaque passager"
-      },
-      {
-        "nom": "Survived",
-        "libelle": "Statut de survie",
-        "libelle_court": "Survie",
-        "description": "Indique si le passager a survécu (1) ou non (0) au naufrage"
-      },
-      {
-        "nom": "Pclass",
-        "libelle": "Classe de la cabine",
-        "libelle_court": "Classe",
-        "description": "Classe socio-économique du billet (1 = 1ère classe, 2 = 2ème classe, 3 = 3ème classe)"
-      },
-      {
-        "nom": "Name",
-        "libelle": "Nom complet du passager",
-        "libelle_court": "Nom",
-        "description": "Nom et titre du passager, incluant parfois le nom de jeune fille pour les femmes mariées"
-      },
-      {
-        "nom": "Sex",
-        "libelle": "Sexe du passager",
-        "libelle_court": "Sexe",
-        "description": "Genre du passager (male/female)"
-      },
-      {
-        "nom": "Age",
-        "libelle": "Âge du passager",
-        "libelle_court": "Age",
-        "description": "Âge du passager en années (certaines valeurs sont manquantes)"
-      },
-      {
-        "nom": "SibSp",
-        "libelle": "Nombre de frères, sœurs ou conjoints à bord",
-        "libelle_court": "Fratrie",
-        "description": "Nombre de frères, sœurs et/ou conjoints voyageant avec le passager"
-      },
-      {
-        "nom": "Parch",
-        "libelle": "Nombre de parents ou enfants à bord",
-        "libelle_court": "Parents",
-        "description": "Nombre de parents et/ou enfants voyageant avec le passager"
-      },
-      {
-        "nom": "Ticket",
-        "libelle": "Numéro de billet",
-        "libelle_court": "Billet",
-        "description": "Numéro du billet de voyage"
-      },
-      {
-        "nom": "Fare",
-        "libelle": "Prix du billet",
-        "libelle_court": "Prix",
-        "description": "Montant payé pour le billet en livres sterling"
-      },
-      {
-        "nom": "Cabin",
-        "libelle": "Numéro de cabine",
-        "libelle_court": "Cabine",
-        "description": "Numéro de la cabine du passager (nombreuses valeurs manquantes)"
-      },
-      {
-        "nom": "Embarked",
-        "libelle": "Port d'embarquement",
-        "libelle_court": "Port",
-        "description": "Port d'embarquement (C = Cherbourg, Q = Queenstown, S = Southampton)"
-      }
-    ]
-  }
+  "tables": [
+    {
+      "nom_table": "titanic",
+      "description": "Données sur les passagers du Titanic, incluant des informations démographiques et leur survie",
+      "variables": [
+        {
+          "nom": "PassengerId",
+          "libelle": "Identifiant du passager",
+          "libelle_court": "ID_pass",
+          "description": "Numéro d'identification unique attribué à chaque passager"
+        },
+        {
+          "nom": "Survived",
+          "libelle": "Statut de survie",
+          "libelle_court": "Survie",
+          "description": "Indique si le passager a survécu (1) ou non (0) au naufrage"
+        },
+        {
+          "nom": "Pclass",
+          "libelle": "Classe de la cabine",
+          "libelle_court": "Classe",
+          "description": "Classe socio-économique du billet (1 = 1ère classe, 2 = 2ème classe, 3 = 3ème classe)"
+        },
+        {
+          "nom": "Name",
+          "libelle": "Nom complet du passager",
+          "libelle_court": "Nom",
+          "description": "Nom et titre du passager, incluant parfois le nom de jeune fille pour les femmes mariées"
+        },
+        {
+          "nom": "Sex",
+          "libelle": "Sexe du passager",
+          "libelle_court": "Sexe",
+          "description": "Genre du passager (male/female)"
+        },
+        {
+          "nom": "Age",
+          "libelle": "Âge du passager",
+          "libelle_court": "Age",
+          "description": "Âge du passager en années (certaines valeurs sont manquantes)"
+        },
+        {
+          "nom": "SibSp",
+          "libelle": "Nombre de frères, sœurs ou conjoints à bord",
+          "libelle_court": "Fratrie",
+          "description": "Nombre de frères, sœurs et/ou conjoints voyageant avec le passager"
+        },
+        {
+          "nom": "Parch",
+          "libelle": "Nombre de parents ou enfants à bord",
+          "libelle_court": "Parents",
+          "description": "Nombre de parents et/ou enfants voyageant avec le passager"
+        },
+        {
+          "nom": "Ticket",
+          "libelle": "Numéro de billet",
+          "libelle_court": "Billet",
+          "description": "Numéro du billet de voyage"
+        },
+        {
+          "nom": "Fare",
+          "libelle": "Prix du billet",
+          "libelle_court": "Prix",
+          "description": "Montant payé pour le billet en livres sterling"
+        },
+        {
+          "nom": "Cabin",
+          "libelle": "Numéro de cabine",
+          "libelle_court": "Cabine",
+          "description": "Numéro de la cabine du passager (nombreuses valeurs manquantes)"
+        },
+        {
+          "nom": "Embarked",
+          "libelle": "Port d'embarquement",
+          "libelle_court": "Port",
+          "description": "Port d'embarquement (C = Cherbourg, Q = Queenstown, S = Southampton)"
+        }
+      ]
+    }
+  ]
+}

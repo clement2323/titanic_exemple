@@ -1,5 +1,8 @@
 id_demande,table,var_croisement,var_croisement_relative,var_quanti,fonctions_agregations,condition,type_output,nom_fichier_xls,nom_onglet,titre,unite
-1,titanic,pclass,sex,survived,mean,,table,,survie,Taux de survie par classe et par sexe,centieme
-3,titanic,pclass,sex,survived,mean,,table,,survie,Taux de survie par classe et sexe,centieme
-4,titanic,embarked,sex,survived,sum,,graphique,,survie,Taux de survie par port d'embarquement,centieme
-5,titanic,pclass,sex,age,mean,,table,titanic_analysis.xlsx,passagers,Age moyen par classe,unite
+1,titanic,Pclass,,Survived-Survived,sum-mean,,table,,survie,Taux de survie par classe et par sexe,centieme-centieme
+2,titanic,Pclass,,Survived,sum,,table,,survie,Taux de survie par classe,centieme
+4,titanic,Embarked,Sex,Survived,sum,,graphique,,survie,Taux de survie par port d'embarquement,centieme
+5,titanic,Pclass,Sex,Age,mean,,table,titanic_analysis.xlsx,passagers,Age moyen par classe et sexe,unite
+6,titanic,Embarked,Pclass,Fare-Fare,mean-sum,,table,titanic_analysis.xlsx,tarifs,Tarif moyen par port et classe,unite-millier
+7,titanic,Sex,Pclass,Age,mean,,table,,passagers,Age moyen par sexe et classe,unite
+8,titanic,Pclass,Embarked,Survived-Survived,sum-mean,,table,,survie,Survie par classe et port,centieme-centieme

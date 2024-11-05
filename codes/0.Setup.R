@@ -1,3 +1,4 @@
+#remove.packages("BoutadE")
 devtools::install_github("clement2323/boutade")
 library(BoutadE)
 ls("package:BoutadE")
